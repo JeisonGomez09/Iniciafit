@@ -212,7 +212,7 @@ public class InventarioDAOImpl implements InventarioDAO {
                      ps.executeQuery()) {
 
             System.out.println(
-                    "\n===== MOVIMIENTOS INVENTARIO =====");
+                    "\n      MOVIMIENTOS INVENTARIO ");
 
             while (rs.next()) {
 
@@ -358,7 +358,7 @@ public class InventarioDAOImpl implements InventarioDAO {
                      ps.executeQuery()) {
 
             System.out.println(
-                    "\n===== PRODUCTOS MÁS VENDIDOS =====");
+                    "\n      PRODUCTOS MÁS VENDIDOS ");
 
             while (rs.next()) {
 

@@ -38,7 +38,7 @@ public class ProveedorDAOImpl implements ProveedorDAO {
              PreparedStatement ps = conn.prepareStatement(sql);
              ResultSet rs = ps.executeQuery()) {
 
-            System.out.println("\n--- LISTA DE PROVEEDORES ---");
+            System.out.println("\n    LISTA DE PROVEEDORES ");
 
             while (rs.next()) {
                 System.out.println("--------------------------------");

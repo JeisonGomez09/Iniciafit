@@ -54,7 +54,7 @@ public class ProductoDAOImpl implements ProductoDAO {
              PreparedStatement ps = conn.prepareStatement(sql);
              ResultSet rs = ps.executeQuery()) {
 
-            System.out.println("\n===== PRODUCTOS =====");
+            System.out.println("\n       PRODUCTOS ");
 
             while (rs.next()) {
 

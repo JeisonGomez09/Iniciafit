@@ -166,7 +166,7 @@ public class VentaDAOImpl implements VentaDAO {
              ResultSet rs =
                      ps.executeQuery()) {
 
-            System.out.println("\n===== VENTAS =====");
+            System.out.println("\n      VENTAS ");
 
             while (rs.next()) {
 
@@ -247,13 +247,13 @@ public class VentaDAOImpl implements VentaDAO {
             boolean existe = false;
 
             System.out.println(
-                    "\n======================================");
+                    "\n_____________________________________");
 
             System.out.println(
                     "        FACTURA DE VENTA");
 
             System.out.println(
-                    "======================================");
+                    "_______________________________________");
 
             while (rs.next()) {
 
@@ -312,7 +312,7 @@ public class VentaDAOImpl implements VentaDAO {
                                 + rs.getDouble("total"));
 
                 System.out.println(
-                        "======================================");
+                        "___________________________________________");
             }
 
             if (!existe) {

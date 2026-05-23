@@ -44,7 +44,7 @@ public class ClienteDAOImpl implements ClienteDAO {
              PreparedStatement ps = conn.prepareStatement(sql);
              ResultSet rs = ps.executeQuery()) {
 
-            System.out.println("\n===== CLIENTES =====");
+            System.out.println("\n      CLIENTES ");
 
             while (rs.next()) {
                 System.out.println("--------------------------------");
